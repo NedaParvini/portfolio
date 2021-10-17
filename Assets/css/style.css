@@ -1,0 +1,131 @@
+body {
+    font-size: 16px;
+    background-color: #65c7ce;
+    display:flex; 
+    flex-direction:column; 
+    justify-content:center;
+    min-height:100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0 auto;
+    
+  }
+  :root {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    --FavColor: #65c7ce;
+  }
+
+  h1 {
+    font-size: 22px;
+      }
+  
+  h2 {
+    font-size: 35px;
+    margin-bottom: 10px;
+  }
+  
+  header {
+    padding-bottom: 20px;   
+    padding-right: 20px;
+    padding-top: 20px;
+    background: var(--FavColor);
+    color: #041011;
+  }
+  header #my_name {
+    text-align: left;
+    padding-right: 20px;
+    padding-left: 20px;
+    background: var(--FavColor);
+    color: #070f58;
+    font-size: 30px;
+    font-weight: bold;
+    max-width: 300px;;
+    display: inline;
+  }
+  header nav {
+    display: inline;
+    background-color: var(--FavColor);
+    margin-right: 20px;
+    margin-left: 550px;
+  }
+   
+  header nav a {
+    display: inline;
+    color: #070f58;
+    padding: 10px 20px;
+    text-decoration: underline ;
+    text-decoration-thickness: 20% ;
+    text-underline-offset: 6px;
+    
+  }
+  
+  .container:hover {
+    opacity: 0.3;
+  }
+   
+  main {
+    background-color: #fff;  
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+  main #contentdiv {
+      background-color: #ffffff;
+      margin-left:auto;
+      margin-right: auto;
+      
+  }
+ 
+  main #content p {
+   font-family: 'Times New Roman', Times, serif;
+      
+  }
+  .menu{
+    display:flex; 
+    flex-direction:column; 
+    
+  }
+  main h3 {
+      font-size: 32px;
+      font-display: right; 
+       
+  }
+  .column{
+    padding-right: 200px;
+    padding-left: 20px;
+    font-size: 15px;
+    margin: 5px;
+  
+  }
+ 
+  .column-text{
+    padding-right: 200px;
+    padding-left: 5px;
+    font-size: 15px;
+    margin: 5px;
+    word-spacing: 100px;
+    text-align: center;
+    
+  }
+  
+  #BottomLinks{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+  }
+  footer {
+    text-align: center;
+    background: var(--FavColor);
+    color: #070f58;
+    max-height: 50px;
+    vertical-align:middle;
+    
+      }
+    footer h4{
+        font-size: 11px;
+    }
+  
+    @media (min-width: 600px){
+      p {font-size: 1.1rem;
+        }
+     }
+  
+  
